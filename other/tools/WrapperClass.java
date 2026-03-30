@@ -1,0 +1,18 @@
+package other.tools;
+
+public class WrapperClass {
+  public static void main(String [] args) {
+    int num = 7; // primitive datatype
+    Integer num1 = num;  // auto-boxing
+    System.out.println(num1);
+
+    // int num2 = num1.intValue();  un-boxing
+    int num2 = num1;  // auto-unboxing
+    System.out.println(num2);
+
+    String str = "12";
+    int num3 = Integer.parseInt(str);
+
+    System.out.println(num3*2);
+  }
+}
